@@ -1,6 +1,6 @@
 import 'package:finalfolder/MealInfo.dart';
-import 'package:finalfolder/ModifyPlan.dart';
 import 'package:flutter/material.dart';
+import 'NewModifyPlan.dart';
 
 class MainPlanCreated extends StatelessWidget {
   MainPlanCreated({
@@ -163,7 +163,7 @@ class MainPlanCreated extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => ModifyPlan()),
+                MaterialPageRoute(builder: (context) => NewModifyPlan()),
               );
             },
             child: Container(

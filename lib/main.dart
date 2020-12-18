@@ -8,7 +8,8 @@ import 'package:finalfolder/SignInPage.dart';
 import 'package:finalfolder/Splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'ModifyPlan.dart';
+import 'InitialMainPlan.dart';
+import 'NewModifyPlan.dart';
 
 void main() {
   runApp(MyApp());

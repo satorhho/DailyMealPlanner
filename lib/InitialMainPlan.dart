@@ -1,6 +1,7 @@
 import 'package:finalfolder/MainPlanCreated.dart';
-import 'package:finalfolder/ModifyPlan.dart';
 import 'package:flutter/material.dart';
+
+import 'NewModifyPlan.dart';
 
 class InitialMainPlan extends StatelessWidget {
   InitialMainPlan({
@@ -130,7 +131,7 @@ class InitialMainPlan extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => ModifyPlan()),
+                MaterialPageRoute(builder: (context) => NewModifyPlan()),
               );
             },
             child: Container(
